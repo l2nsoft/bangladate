@@ -1,0 +1,22 @@
+{
+    "name": "l2nsoft/bangladate",
+    "type": "library",
+    "description": "Bangla Date, English date in bangla",
+    "keywords": ["Bangla Date", "English date in bangla"],
+    "authors": [
+        {
+            "name": "Tareq Hasan(BanglaCalendar)",
+            "homepage": "http://tareq.weDevs.com"
+        },
+		{
+            "name": "Hasan Muhammad Kafi",
+            "email": "kafi@l2nsoft.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.4"
+    },
+    "autoload": {
+        "psr-4": {"bangladate\\": "lib/bangladate"}
+    }
+}
